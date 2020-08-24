@@ -11,10 +11,10 @@
 import cv2 as cv
 
 
-img = cv.imread('image.jpg')
+img = cv.imread('opencv.jpg')
 cv.namedWindow('img', cv.WINDOW_AUTOSIZE)
 cv.imshow('img', img)
-cv.imwrite('image1.jpg',img)
+cv.imwrite('image.jpg',img)
 
 cv.waitKey()
 cv.destroyAllWindows()
